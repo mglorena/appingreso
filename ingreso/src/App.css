@@ -1,0 +1,163 @@
+.App {
+  text-align: center;
+ 
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Estilos generales */
+.verificarDNI {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+h1{
+  color:#2980b9;
+
+}
+/* Estilos del header */
+.header {
+  background-color: #cccc; /* Color verde */
+  height: 170px;
+  display: flex;
+  align-items:flex-start; 
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+
+.logo {
+  display: flex;
+  align-items:center;
+ 
+}
+
+.logo img {
+  max-width: 100px; /* Ajusta el tamaño del logo según tu preferencia */
+  margin-right: 10px; /* Espacio entre el logo y el texto */
+}
+.btnEnviar{
+  max-width: 100px;
+}
+.modal{
+  background-color: rgba(231, 76, 60, 0.5);
+ }
+
+.logo-text {
+  flex: 1; /* Para que el texto ocupe el espacio restante */
+  text-align: left; /* Alineación del texto */
+color: #2980B9;
+  font-size: x-large;
+}
+p.authorized {
+  font-size: 4em; /* Tamaño grande */
+  font-weight: bold;
+  color: #2ecc71; /* Color verde para autorizado */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #fff;
+  border: 2px solid #2ecc71; /* Borde verde */
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(46, 204, 113, 0.5); /* Sombra */
+}
+
+p.unauthorized {
+  font-size: 4em; /* Tamaño grande */
+  font-weight: bold;
+  color: #e74c3c; /* Color rojo para no autorizado */
+  text-transform: uppercase; /* Texto en mayúsculas */
+  display: inline-block;
+  padding: 5px 15px;
+  background-color: #fff;
+  border: 2px solid #e74c3c; 
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(231, 76, 60, 0.5); 
+}
+
+.menu button {
+  background-color: #3498db; /* Color azul */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 4px;
+  outline: none;
+}
+
+.menu button:hover {
+  background-color: #2980b9; /* Color azul más oscuro al pasar el mouse */
+}
+
+/* Estilos del contenido de verificación */
+.verification-content {
+  margin-top: 20px;
+}
+
+.verification-content h2 {
+  color: #2c3e50; /* Color de texto */
+  margin-bottom: 15px;
+}
+
+input[type="text"],
+button {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #2980b9; /* Color verde */
+  color: white;
+  cursor: pointer;
+  outline: none;
+}
+
+button:hover {
+  background-color: #2980b9; /* Color verde más oscuro al pasar el mouse */
+}
+
+.cerrar-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #28a745; /* Verde */
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
